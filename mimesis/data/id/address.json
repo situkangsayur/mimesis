@@ -1,5 +1,5 @@
 {
-  "address_fmt": "{st_sfx} {st_name} {st_sfx}",
+  "address_fmt": "{prefix} {st_name} {suffix}",
   "city": [
   "Kabupaten Aceh Barat",
   "Kabupaten Aceh Barat Daya",
@@ -1135,8 +1135,26 @@
   "Zamrud"
 ],
     "suffix": [
+	"Barat",
+	"Timur",
+	"Utara",
+	"Selatan",
+	"I",
+	"II",
+	"III",
+	"IV",
+	"V",
+	"VI",
+	"VII",
+	"VIII",
+	"IX",
+	"X",
+	"XI",
+	"XII"
+      ],
+    "preffix":[
 	"Jalan",
 	"Jl."
-      ]
-       "Tanah Abang",
-       
+	]
+  }
+}

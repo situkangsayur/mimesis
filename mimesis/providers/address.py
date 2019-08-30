@@ -87,6 +87,14 @@ class Address(BaseDataProvider):
         return self.random.choice(
             self._data['street']['suffix'])
 
+    def street_preffix(self) -> str:
+        """Get a random street prefix
+
+        :return: Street Prefix
+        """
+        return self.random.choice(
+            self._data['street']['preffix'])
+
     def address(self) -> str:
         """Generate a random full address.
 
@@ -94,11 +102,13 @@ class Address(BaseDataProvider):
         """
         fmt = self._data['address_fmt']
 
+        st_pfx = self.street_preffix()
         st_num = self.street_number()
         st_name = self.street_name()
 
         if self.locale in SHORTENED_ADDRESS_FMT:
             return fmt.format(
+                st_pfx=st_pfx,
                 st_num=st_num,
                 st_name=st_name,
             )
@@ -112,10 +122,10 @@ class Address(BaseDataProvider):
             )
 
         return fmt.format(
+            st_pfx=self.street_preffix,
             st_num=st_num,
             st_name=st_name,
             st_sfx=self.street_suffix(),
-
         )
 
     def state(self, abbr: bool = False) -> str:

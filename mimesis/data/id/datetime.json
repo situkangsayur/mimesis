@@ -1,0 +1,66 @@
+{
+  "day": {
+    "abbr": [
+      "Jum.",
+      "Sen.",
+      "Sab",
+      "Min.",
+      "Kam.",
+      "Sel.",
+      "Rab."
+    ],
+    "name": [
+      "Jum'at",
+      "Senin",
+      "Sabtu",
+      "Minggu",
+      "Kamis",
+      "Selasa",
+      "Rabu"
+    ]
+  },
+  "formats": {
+    "date": "%Y-%m-%d",
+    "time": "%H:%M:%S"
+  },
+  "month": {
+    "abbr": [
+      "Jan.",
+      "Feb.",
+      "Mar.",
+      "Apr.",
+      "Mai.",
+      "Jun.",
+      "Jul.",
+      "Agu.",
+      "Sept.",
+      "Okt.",
+      "Nov.",
+      "Des."
+    ],
+    "name": [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
+    ]
+  },
+  "periodicity": [
+    "Harian",
+    "Bulanan",
+    "Tidak Pernah",
+    "Sering",
+    "Sekali",
+    "Jarang",
+    "Mingguan",
+    "Tahunan"
+  ]
+}

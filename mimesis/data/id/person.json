@@ -46,11 +46,7 @@
     "Hebräisch",
     "Hindi",
     "Hiri Motu",
-    "Holländisch",
-    "Indonesisch",
-    "Irisch",
-    "Isländisch",
-    "Italienisch",
+    "Holländisch", "Indonesisch", "Irisch", "Isländisch", "Italienisch",
     "Japanisch",
     "Jiddisch",
     "Kanadisch",
@@ -1583,8 +1579,8 @@
       ],
       "academic": [
         "Dr.",
-        "Dr. rer. nat.",
-        "Dr. med.",
+	"dr.",
+	"Ir.",
         "Prof. Dr."
       ]
     },
@@ -1594,8 +1590,8 @@
       ],
       "academic": [
         "Dr.",
-        "Dr. med.",
-        "Dr. rer. nat.",
+	"dr.",
+	"Ir.",
         "Prof. Dr."
       ]
     }
